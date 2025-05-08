@@ -2,8 +2,9 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# Example story structure
+# Story structure
 scenes = {
+    # Act 1
     "start": {
         "description": "You wake up in a dark forest. What do you do?",
         "choices":{
